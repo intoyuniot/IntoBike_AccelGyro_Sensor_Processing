@@ -1,0 +1,27 @@
+{
+    "name": "IntoBike_AccelGyro_Sensor_Processing",
+    "version": "1.0.0",
+    "keywords": "accel,gyro",
+    "description": "针对自平衡小车的六轴传感器的数据采集与处理",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intoyuniot/IntoBike_AccelGyro_Sensor_Processing.git"
+    },
+    "authors": {
+        "name": "robin",
+        "email": "robin@molmc.com"
+    },
+    "dependencies":
+    [
+        {
+            "name": "MeanFilter",
+            "frameworks": "arduino"
+        },
+        {
+            "name": "Matrix",
+            "frameworks": "arduino"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
